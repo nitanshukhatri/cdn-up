@@ -3218,9 +3218,9 @@ var Parser = function Parser(context, imports, fileInfo) {
             // rule, which represents `{ ... }`, the `ruleset` rule, and this `primary` rule,
             // as represented by this simplified grammar:
             //
-            //     primary  →  (ruleset | rule)+
-            //     ruleset  →  selector+ block
-            //     block    →  '{' primary '}'
+            //     primary  â†’  (ruleset | rule)+
+            //     ruleset  â†’  selector+ block
+            //     block    â†’  '{' primary '}'
             //
             // Only at one point is the primary rule not called from the
             // block rule: at the root level.
