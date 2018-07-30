@@ -1,13 +1,15 @@
-@color:#93962f;
+@headerColor:#93962f;
+@buttonColor:#93962f;
+@leftPanelColor:#212529;
 
 .navbar.header-bg {
-  background-color: @color !important ;
+  background-color: @headerColor !important ;
   
 }
 
   .btn-primary{
-    background-color: @color !important;
-    border-color: @color !important;
+    background-color: @buttonColor !important;
+    border-color: @buttonColor !important;
   }
 
 .dashboard-area-nav ul li a.active-selection{
@@ -15,5 +17,8 @@
 }
 
 input:checked + .slider{
-  background-color: @color !important
+  background-color: @buttonColor !important;
+}
+.dashboard-area-nav {
+  background-color:@leftPanelColor !important;
 }
